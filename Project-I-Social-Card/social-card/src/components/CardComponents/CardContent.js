@@ -6,8 +6,10 @@ import './Card.scss';
 const CardContent = () => {
   return (
     <div>
-    <h3>Get started with React</h3>
-    
+      <h5 className="contentCard">Get started with React</h5>
+      <p>React makes its painless to create interactive UIs. Design simple
+      views for each state in your application.</p>
+      <p className="reactJs">reactjs.org</p>
     </div>
   )
 }

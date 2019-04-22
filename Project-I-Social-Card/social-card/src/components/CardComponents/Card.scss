@@ -1,1 +1,28 @@
 /* All styles for your Card Components live here */
+.card {
+  max-width: 850px;
+  width: 100%;
+  margin: 0 auto;
+  .reactLogo {
+    width: 500px;
+    padding-left: 60px;
+  }
+  div {
+    padding-left: 60px;
+    .contentCard {
+      margin-top: 8px;
+      margin-left: 12px;
+      margin-bottom: 5px;
+    }
+    p {
+      font-size: 14px;
+      margin-left: 10px;
+      width: 450px;
+    }
+    .reactJs {
+      color: gray;
+      margin-top: -10px;
+    }
+  }
+
+}
