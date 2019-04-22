@@ -17,6 +17,9 @@
       p{
         font-size: 12px;
         padding-top: 10px;
+        span::after {
+          color: x2022;
+        }
       }
       .lamabdaTwit{
         color: gray;
@@ -29,5 +32,12 @@
       border-radius: 50%;
       margin-right: 10px;
     }
+  }
+  .head-content {
+    font-size: 14px;
+    
+    margin-left: 60px;
+    margin-top: -30px;
+    width: 500px;
   }
 }
