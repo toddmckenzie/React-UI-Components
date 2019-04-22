@@ -1,13 +1,13 @@
 import React from 'react';
-import './Header.css';
+import './Header.scss';
 
 
 
 const HeaderTitle = () => {
   return (
     <div className="header">
-      <h3>Lambda School</h3>
-      <h4>@LambdaSchool * 26 jan </h4>
+      <h4>Lambda School</h4>
+      <p className="lamabdaTwit">@LambdaSchool * 26 jan </p>
     </div>
   )
 }

@@ -1,10 +1,11 @@
-import React from 'react';
-import './Header.css';
 
+import React from 'react';
+import './Header.scss';
+import logo from './lambdaLogo.jpeg'
 
 const ImageThumbnail = () => {
   return (
-    <img src=""/>
+    <img src={logo} alt="lambdaLogo" className="lambdaPic"/>
   )
 };
 
