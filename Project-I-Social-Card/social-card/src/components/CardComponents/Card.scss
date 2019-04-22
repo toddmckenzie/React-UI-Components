@@ -1,22 +1,20 @@
 /* All styles for your Card Components live here */
 .card {
   max-width: 850px;
-  width: 100%;
-  margin: 0 auto;
+  width: 500px;
+  margin-left: 60px;
+  border: 1px solid lightgray;
   .reactLogo {
-    width: 500px;
-    padding-left: 60px;
+    width: 100%;
   }
   div {
-    padding-left: 60px;
+    padding-left: 10px;
     .contentCard {
       margin-top: 8px;
-      margin-left: 12px;
       margin-bottom: 5px;
     }
     p {
       font-size: 14px;
-      margin-left: 10px;
       width: 450px;
     }
     .reactJs {
