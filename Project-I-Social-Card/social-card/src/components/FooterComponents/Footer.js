@@ -9,10 +9,10 @@ import mail from './mail.png';
 const Footer = () => {
   return (
     <div className="foot">
-      <img src={comment} />
-      <img src={retweet} />
-      <img src={like} />
-      <img src={mail} />
+      <img src={comment} alt="comment"/>
+      <img src={retweet} alt="retweet"/>
+      <img src={like} alt="like"/>
+      <img src={mail} alt="mail"/>
     </div>
   )
 }
