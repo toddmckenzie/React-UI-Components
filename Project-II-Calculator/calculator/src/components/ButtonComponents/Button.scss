@@ -8,17 +8,25 @@
 .clear {
   width: 334px;
   border: 1px solid gray;
-  height: 90px;
+  height: 100px;
   margin: 0;
   font-size: 45px;
   align-self: center;
 
 
 }
-
+.numberButton {
+  display: flex;
+  flex-wrap: wrap;
+}
 .button {
   width: 112px;
   height: 100px;
   font-size: 45px;
   background-color: white;
+}
+
+
+.color-button {
+  background-color: red;
 }

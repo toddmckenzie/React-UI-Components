@@ -6,9 +6,13 @@ import './Button.scss';
 
 const NumberButton = props => {
   return (
-    <div>
+    <div className="numberButton">
     {props.numsProp.map((item, index) => {
-      return <button className="button" key={index}>{item}</button>
+      if (index===0 || index===4 || index===8 || index===12){
+        return <button className="button color-button" key={index}>{item}</button>
+      }else {
+        return <button className="button" key={index}>{item}</button>
+      }
     })}
    </div>
  )
