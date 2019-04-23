@@ -14,11 +14,16 @@ html {
     border: 1px solid lightgray;
     background: gray;
   }
+  .flex {
+    display: flex;
+    flex-wrap: wrap;
+    color: black;
+  }
   .eachbox {
     width: 25%;
     border: 1px solid gray;
     height: 92px;
-  
+
   }
 
 }

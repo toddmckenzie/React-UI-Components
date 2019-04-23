@@ -4,15 +4,15 @@ import './Button.scss';
 
 
 
-
-
 const NumberButton = props => {
   return (
     <div>
-      {props.nums.map(item => {
-        return  <button>item</button>
-      })}
-    </div>
-};
+    {props.numsProp.map((item, index) => {
+      return <button className="button" key={index}>{item}</button>
+    })}
+   </div>
+ )
+
+}
 
 export default NumberButton;
