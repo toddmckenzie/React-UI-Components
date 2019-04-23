@@ -11,17 +11,18 @@ const App = () => {
         <p className="display">0</p>
        </div>
        <div className="flex">
-        <ActionButton action={actions[0]}/>
-        <NumberButton numsProp={numbers} />
-        <ActionButton action={actions[1]}/>
-      </div>
+          <ActionButton action={actions[0]} />
+          <NumberButton numsProp={numbers} />
+          <ActionButton action={actions[1]} />
+          <NumberButton numsProp={equals} />
+        </div>
     </div>
   )
 };
 
 const actions = ['clear', 0]
-const numbers = ['/',7,8,9,'x',4,5,6,'-',1,2,3,'+'];
-
+const numbers = ['/',7,8,9,'X',4,5,6,'-',1,2,3,'+'];
+const equals = ['='];
 
 
 

@@ -4,7 +4,7 @@ import './Button.scss';
 
 const ActionButton = (props, index) => {
   return (
-    <p className="clear" key={index}>{props.action}</p>
+    <button className="clear" key={index}>{props.action}</button>
   )
 }
 
