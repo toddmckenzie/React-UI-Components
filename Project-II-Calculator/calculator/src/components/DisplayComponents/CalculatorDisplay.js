@@ -1,2 +1,7 @@
 import React from 'react';
-import './Display.css';
+import './Display.scss';
+
+
+
+
+export default CalculatorDisplay;
