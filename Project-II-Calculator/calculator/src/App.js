@@ -4,14 +4,16 @@ import './App.scss';
 import NumberButton from './components/ButtonComponents/NumberButton';
 import ActionButton from './components/ButtonComponents/ActionButton';
 
+
 const App = () => {
   return (
     <div className="box">
        <div className="top">
-        <p className="display">0</p>
+        <p className="display">{count}</p>
        </div>
        <div className="flex">
           <ActionButton action={actions[0]} />
+          <NumberButton numsProp={divided} />
           <NumberButton numsProp={numbers} />
           <ActionButton action={actions[1]} />
           <NumberButton numsProp={equals} />
@@ -21,9 +23,10 @@ const App = () => {
 };
 
 const actions = ['clear', 0]
-const numbers = ['/',7,8,9,'X',4,5,6,'-',1,2,3,'+'];
+const divided = ['/']
+const numbers = [7,8,9,'X',4,5,6,'-',1,2,3,'+'];
 const equals = ['='];
-
+let count = 0;
 
 
 export default App;

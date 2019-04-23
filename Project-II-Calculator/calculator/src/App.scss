@@ -13,24 +13,16 @@ html {
     width: 100%;
     border: 1px solid lightgray;
     background: gray;
-    display: flex;
+
     .display {
       font-size: 60px;
       color: white;
       padding-left: 390px;
-      
+
     }
   }
   .flex {
     display: flex;
     flex-wrap: wrap;
-    color: black;
   }
-  .eachbox {
-    width: 25%;
-    border: 1px solid gray;
-    height: 92px;
-
-  }
-
 }
