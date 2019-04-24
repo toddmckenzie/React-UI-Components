@@ -8,7 +8,7 @@ const NumberButton = props => {
   return (
     <div className="numberButton">
     {props.numsProp.map((item, index) => {
-      if (index===3 || index===7 || index===11 || item==='='){
+      if (item==='/' || item==='+' || item==='-' || item==='X' || item==='='){
         return <button className="button color-button" key={index}>{item}</button>
       }else {
         return <button className="button" key={index}>{item}</button>
