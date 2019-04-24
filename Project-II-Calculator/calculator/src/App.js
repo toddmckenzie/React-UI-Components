@@ -3,13 +3,13 @@ import './App.scss';
 
 import NumberButton from './components/ButtonComponents/NumberButton';
 import ActionButton from './components/ButtonComponents/ActionButton';
-
+import CalculatorDisplay from './components/DisplayComponents/CalculatorDisplay';
 
 const App = () => {
   return (
     <div className="box">
        <div className="top">
-        <p className="display">{count}</p>
+        <CalculatorDisplay count={count}/>
        </div>
        <div className="flex">
           <ActionButton action={actions[0]} />
